@@ -1,4 +1,26 @@
-> **vocal-link-dashboard ~ A controller for vocal-link-recorder**
+> **fvr-dashboard ~ A controller for [fv-recorder](https://github.com/0x11a41/fv-recorder)**
+
+This dashboard provides a centralized interface to monitor and real-time control over the distributed recording network of smartphones via local network. It allows administrator to track the status of connected devices, provides a global command center to initiate synchronized recorder actions across the entire array and automatically retrieves the audio from each recording node after recording.
+
+## Features
+- synchronized controls
+- audio enhancement options
+- speech transcription (as .srt files)
+- custom event triggered scripts
+
+## Screenshots
+#### **Main Dashboard**
+![dashboard view](demo/dashboard.png)
+
+---
+
+#### **File Management**
+![files view](demo/files.png)
+
+---
+
+#### **System Configuration**
+![configure view](demo/configure.png)
 
 ## Prerequisites
 
@@ -58,10 +80,9 @@ python app.py --debug
 - [x] storing server configuration
 - [x] Configure page
 - [x] dark and light mode toggle button at top (automatic dark and light theme switching instead)
-- [ ] about page
 - [ ] key bindings
 - [ ] key bindings documentation
-- [ ] log section to show toast notifications
+- [x] log section to show toast notifications
 - [ ] indicate new recordings
 - [x] tooltips
 
